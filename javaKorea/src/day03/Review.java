@@ -6,7 +6,7 @@ public class Review {
 		
 		System.out.println("Hello Java!");
 		// 실행은 Ctrl + F11 (그냥 F11은 Debug 모드)
-		// syso (Ctrl + Enter)
+		// syso (Ctrl + Space + Enter)
 		
 		// 프로그래밍 언어의 발전은 '수정'에 초점이 맞춰져 있음
 		// 변수(Variable) : 저장공간, 자주 변경될 것 같은 혹은 자주 사용될 것 같은 데이터를 저장해놓은 저장

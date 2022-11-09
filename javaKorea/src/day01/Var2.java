@@ -2,7 +2,7 @@ package day01;
 
 public class Var2 {
 	public static void main(String[] args) {
-		//페이지 8
+		// 페이지 8
 		// 챗팅의 엔터 : 문장이 끝남
 		// 프로그래밍에서의 엔터(한문장 끝남) : ;
 		String 변수1 = "요리";
