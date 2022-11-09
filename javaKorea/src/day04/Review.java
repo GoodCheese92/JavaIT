@@ -22,7 +22,7 @@ public class Review {
 			// 0 미만
 			System.out.println("?");
 		}
-		// flase == 0, true == 0 이외의 숫자
+		// false == 0, true == 0 이외의 숫자
 		
 		// switch : 소괄호 안에 있는 내용과 case 옆에 있는 내용이 같으면 해당 라인부터 시작, break 만나면 종료
 		switch (age/10) {

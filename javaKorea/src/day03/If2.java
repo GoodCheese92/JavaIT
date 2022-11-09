@@ -16,7 +16,7 @@ public class If2 {
 		String 글자1 = null;
 		double 숫자2 = 0.0;
 		
-		// 입력받기 (키도드)
+		// 입력받기 (키보드)
 		System.out.print("정수를 입력하세요 : ");
 		숫자1 = sc.nextInt();
 		System.out.print("문자열을 입력하세요 : ");
