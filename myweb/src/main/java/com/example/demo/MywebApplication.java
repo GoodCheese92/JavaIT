@@ -1,4 +1,4 @@
-package com.starter.myweb;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,7 +8,7 @@ public class MywebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MywebApplication.class, args);
-		System.out.println("Hello Spring");
+		System.out.println("웹 실행 완료");
 	}
 
 }
