@@ -1,16 +1,39 @@
 package com.example.demo;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 @Controller
 public class MyController {
 	
-	@GetMapping("/my")		// /my로 들어가면
+	@GetMapping("/")		// /my로 적으면 주소 뒤에 /my 입력들어가면
 	public String home() {
 		return "index";		// 해당 html 파일을 열어줌
 	}
+
+	@GetMapping("/keyboard")
+	public String keyboardPage() {
+		return "keyboard";		// keybodard.html 열기
+	}
+	
+	// [HTML <-> JAVA] 1. jsp 2. thymeleaf
+	@GetMapping("/result")
+	public String resultPage(Model model, @RequestParam("id") String name) {
+		if (name.equalsIgnoreCase("1234")) {
+			model.addAttribute("re", "로그인"); // re = "로그인"
+		} else {
+			model.addAttribute("re", "아이디없음");		// re = "아이디 없음"
+		}
+//		model.addAttribute("re", name);		// re = name;
+		return "result";		// result.html 열기
+	}
+
+
 }
+
 // new -> Spring Starter Project -> (maven project, java version 11) -> 
 // (Spring boot Devtool, Spring web, Thymeleaf)
 // 1. src/main/java -> com.example.demo -> 클래스 생성(입력 : @Controller, @GetMapping 및 home 메서드 생성)
