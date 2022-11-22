@@ -51,6 +51,7 @@ class Member extends Person {
 	
 	public Member(String name, int age,int MemberNo) {
 		// super(name, age);
+		super();
 		System.out.println("회원정보입니다.");
 		this.name = name;
 		this.age = age;

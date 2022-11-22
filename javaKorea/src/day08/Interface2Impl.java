@@ -59,7 +59,7 @@ class Gangnam implements Interface2 {
 		menu[end_idx] = coffee;
 		priceList[end_idx] = price;
 		end_idx++;
-		System.out.println("강남점 - 커피를 추가했습니다.");
+		System.out.println("강남점 - "+menu[end_idx]+"를 추가했습니다.");
 	}
 
 	@Override
