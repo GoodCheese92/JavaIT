@@ -28,7 +28,7 @@ class Try3 {
 		}
 		
 		// 2번. 해당 메서드에 throws Exception 사용
-		//br.read();
+		// br.read();
 	}
 	
 }

@@ -33,7 +33,7 @@ class MyTimer3 {
 		
 		System.out.println(m_year+"년");
 		System.out.println(m_month+"월");
-		System.out.println("내일은 "+m_year+"년 "+m_month+"월"+(day_int+1)+"일 입니다.");
+		System.out.println("내일은 "+m_year+"년 "+m_month+"월 "+(day_int+1)+"일 입니다.");
 		
 		// String -> int
 		// num -> Integer.parseInt(str);
