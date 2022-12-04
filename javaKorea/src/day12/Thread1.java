@@ -13,7 +13,29 @@ public class Thread1 {
 		
 		// main() : 주쓰레드
 		// 쓰레드를 추가하고 다루는 방법
+		for(int i=0;i<10;i++) {
+			System.out.println(i);
+			
+			try {
+				Thread.sleep(1000);		// 1000ms 동안 쓰레드 중지
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}		
+		}
 		
 	}
 }
 
+class MyThread1{
+	String str;
+	int num;
+	double dNum;
+	public void go() {
+		
+	}
+	public int numnum(int num) {
+		this.num = num;
+		System.out.println(num);
+		return 0;
+	}
+}
