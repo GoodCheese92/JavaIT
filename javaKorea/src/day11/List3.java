@@ -16,8 +16,8 @@ class ListClass3 {
 		arr1.add("카페라떼");
 		arr1.add("카페모카");
 		arr1.add(0, "에스프레소");	// 추가
-		arr1.add(4, "오렌지주스");	// 수정
-		arr1.remove(4);			// 삭제
+		arr1.add(2, "오렌지주스");	// 수정
+		arr1.remove(3);			// 삭제
 		arr1.remove("카페모카");
 		
 		System.out.println(arr1.indexOf("에스프레소"));
