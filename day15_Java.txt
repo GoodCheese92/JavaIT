@@ -1,0 +1,44 @@
+C/C++ -> Java -> C# -> python, ...
+
+Java -> 서블렛(servlet) -> Java Server Page (JSP웹) -> Spring Framework -> Spring Boot
+
+Spring Framework -> EgovFramework(한국)
+
+Spring은 JSP를 쉽게 만든 것 
+Spring Boot, Groovy, Thymleaf
+
+Java -> Android
+Kotlin -> Android
+
+1. new -> others -> spring boot -> spring starter project -> type : Maven, java version : 11 -> Spring Boot DevTools, Spring Web
+-> pom.xml -> </dependency> 뒤에 <!-- 톰캣 --> 붙여넣기!
+
+2. src/main/resources -> application.properties -> 코드 붙여넣기!
+
+3. src -> main -> new folder -> name : webapp 그 안에 new folder(WEB-INF) 그 안에 new folder(jsp)
+
+4. jsp 폴더 선택 후 new others -> jsp(main.jsp) -> 코드 붙여넣기
+
+5. src/main/java -> syso 표시 후 실행
+
+6. com.example.demo 안에 패키지 하나 생성(Controller) -> class도 생성 -> 코드 작성
+
+7. 프로젝트 우클릭 후 run as -> spring boot app로 실행
+
+8. localhost:8089
+
+
+---------------------------------------------
+MySQL
+1. new others -> spring boot -> stater -> (Spring Web, Spring Boot DevTools, Spring Data JPA, MySQL Driver)
+
+2. pom.xml -> dependency 뒤에 똑같이 복붙 -> 위 설정과 동일하게 세팅
+
+3. src/example/demo 패키지 아래 패키지 생성 -> controller, entity, repository, service, serviceImpl
+
+4. controller 패키지 안에 UserController 생성
+
+5. src/main/resources -> apllication.properties 에 코드 세팅
+
+
+
