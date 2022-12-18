@@ -19,7 +19,7 @@ public class Thread1 {
 			try {
 				Thread.sleep(1000);		// 1000ms 동안 쓰레드 중지
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				e.printStackTrace(); // sdsdsd
 			}		
 		}
 		
