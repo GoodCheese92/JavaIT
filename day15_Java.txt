@@ -10,6 +10,8 @@ Spring Boot, Groovy, Thymleaf
 Java -> Android
 Kotlin -> Android
 
+spring boot 버젼 : 2.7.6
+
 1. new -> others -> spring boot -> spring starter project -> type : Maven, java version : 11 -> Spring Boot DevTools, Spring Web
 -> pom.xml -> </dependency> 뒤에 <!-- 톰캣 --> 붙여넣기!
 
